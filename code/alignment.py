@@ -6,7 +6,9 @@ from scipy.ndimage import fourier_shift
 import matplotlib.pyplot as plt
 import cv2
 
+
 """
+RUN THIS FILE FIRST
 Please refer to README.md to better understand the thought process behind this program
 """
 
