@@ -6,6 +6,10 @@ from scipy.ndimage import fourier_shift
 import matplotlib.pyplot as plt
 import cv2
 
+"""
+Please refer to README.md to better understand the thought process behind this program
+"""
+
 #  Step 1: Load raw Bayer images 
 raw_images = []
 file_list = sorted([f for f in os.listdir('../images') if f.endswith('.fit')]) # You may have .fit or .fits files depending on your camera hardware
